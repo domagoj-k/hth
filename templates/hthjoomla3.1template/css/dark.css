@@ -1,0 +1,12 @@
+﻿/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/*body{background: #000 url('../images/dark/bg.png') repeat-x 0 0;}	*/
+a#logo_styled { background:transparent url('../images/dark/logo.png') no-repeat 0 0; }
+#mod_search_searchword { color:#9F7722; background:transparent url('../images/dark/search_input.png') no-repeat 0 0; }
+.submit_btn .button { background:transparent url('../images/dark/search_btn.png') no-repeat right 0; }

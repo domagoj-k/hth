@@ -1,0 +1,376 @@
+﻿/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* News Highlighter GK1
+---------------------------------------------------------------*/
+.gk_news_highlighter{
+	font-size:11px!important;
+}
+.gk_news_highlighter_interface{
+	color:#dbdbdb;
+	
+	font-weight:bold;
+}
+.gk_news_highlighter_interface span.text{
+	padding:0 0 0 21px!important;
+}
+.gk_news_highlighter_wrapper,
+.gk_news_highlighter_wrapper a{
+	color:#969696;
+}
+.gk_news_highlighter_wrapper a:hover{
+	color:#fff;
+}
+.gk_news_highlighter_item{
+	padding:0!important;
+}
+
+/* News Show Pro GK1
+---------------------------------------------------------------*/
+h4.ta_center, p.ta_center {text-align: center;}
+h4.ta_left,p.ta_left {text-align: left;}
+h4.ta_right,p.ta_right {text-align: right;}
+p.ta_justify {text-align: justify;}
+img.i_left {display: block;float: left;}
+img.i_right {display: block;float: right;}
+img.i_center {display: block;margin: 0 auto 10px;}
+a.readon_class {padding:0!important;}
+a.p_left {float: left !important;}
+a.p_right {float: right !important;}
+a.p_center {margin: 0 auto !important;}
+/*default style*/
+div.gk_npro_mainwrap {
+	padding-bottom: 10px;
+	background: none;
+	overflow:hidden;
+}
+div.gk_npro_mainwrap h4{
+	font-size:18px;
+	line-height:22px;
+}
+div.gk_npro_full_interface {
+	overflow: hidden;
+	margin-top:4px;
+	min-height:16px;
+	float:left;
+	width:100%;
+	clear:both;
+}
+div.gk_npro_full_interface ul {
+	list-style-image: none!important;
+	margin:3px 0 0 0;
+	padding: 0;
+	float: left;
+}
+div.gk_npro_interface_bg,
+div.gk_npro_short_interface_bg {
+	float: right;
+	width: 32px;
+	height: 18px;
+}
+div.gk_npro_full_next {	
+	float: right;	
+}
+div.gk_npro_full_scroll1 {
+	clear:both;
+	overflow: hidden;
+}
+div.gk_npro_full_scroll2 {}
+div.gk_npro_full_tablewrap {
+	float: left;
+}
+table.gk_npro_table {}
+table.gk_npro_table tr {}
+table.gk_npro_table td {}
+div.gk_npro_short {
+	min-height: 21px;
+}
+div.gk_npro_short_scroll1 {
+	overflow: hidden;
+}
+div.gk_npro_short_scroll2 {}
+div.gk_npro_short_ulwrap {
+	float: left;
+}
+div.gk_npro_short_ulwrap ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style-image: none!important;
+	list-style-type:none!important;
+}
+div.gk_npro_short_ulwrap ul li {
+	padding:6px 0;
+	margin:0;
+	line-height: 120%;
+	height:auto!important;
+}
+div.gk_npro_short_ulwrap ul li h4,
+div.gk_npro_short_ulwrap ul li h4 a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+}
+div.gk_npro_short_ulwrap ul li p {
+	font-size: 11px;
+	margin: 0;
+}
+div.gk_npro_short_interface {
+	padding-top: 5px;
+	overflow: hidden;
+	margin: 2px 0 0;
+}
+div.gk_npro_short_interface span {
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+div.gk_npro_short_interface span a{
+	font-weight: normal;
+	text-transform: none;
+}
+div.gk_npro_short_prev {
+	width: 33px;
+	height: 15px;
+	float: right;
+	margin: 0;
+	text-indent: -999em;
+}
+div.gk_npro_short_prev:hover {
+	cursor: pointer;
+}
+div.gk_npro_short_next {
+	width: 33px;
+	height: 15px;
+	float: right;
+	margin: 0;
+	text-indent: -999em;
+}
+div.gk_npro_short_next:hover {
+	cursor: pointer;
+}
+h4.gk_npro_header {
+	font-weight:bold;
+	font-size: 12px;
+	margin: 3px 0 8px 0;
+}
+p.gk_npro_text {
+	margin: 0;
+	font-size: 12px;
+}
+p.gk_npro_info {
+	font-size: 10px;
+}
+div.gk_npro_mainwrap a.readon_class{
+	text-decoration:none!important;
+}
+div.gk_npro_full_prev, 
+div.gk_npro_full_next,
+div.gk_npro_short_prev, 
+div.gk_npro_short_next{
+	width: 13px;
+	height: 13px;
+	float: left;
+	margin: 0!important;
+	text-indent: -999em;
+}
+div.gk_npro_short_prev, 
+div.gk_npro_short_next{
+	float:right;
+}
+div.gk_npro_full_prev, 
+div.gk_npro_short_prev{
+	margin-right:5px!important;
+}
+div.gk_npro_full_prev:hover, 
+div.gk_npro_full_next:hover,
+div.gk_npro_short_prev:hover, 
+div.gk_npro_short_next:hover{
+	cursor: pointer;
+}
+div.gk_npro_full_interface ul li,
+div.gk_npro_full_interface ul li:first-child{
+	cursor: pointer;
+	float: left;
+	width: 7px;
+	height: 7px;
+	border:none!important;
+	margin:0 3px 0 0!important;
+	text-indent: -999em;
+	padding: 0;
+}
+div.gk_npro_full_interface ul li.active{ 
+	margin:0!important;
+	margin-right: 3px!important;
+}
+/* color suffix */
+div.nspro_bg_wrap{
+	padding: 8px;
+}
+.color div.gk_npro_full_interface ul{
+	float:right;
+	margin:3px 6px 0 6px;
+}
+.color div.gk_npro_interface_bg{
+	float:left;
+}
+.color div.nspro_bg_wrap h4 {font-size: 12px;line-height: inherit; margin: 0;}
+
+/* GK Tab 
+---------------------------------------------------------------*/
+.clearfix-tabs{
+	clear: both;
+}
+.gk_tab_item_space{
+	padding:8px;
+}
+div.gk_tab-style1 {
+	position: relative;
+}
+div.gk_tab_wrap-style1 {
+	margin: 0 auto;
+}
+ul.gk_tab_ul-style1 {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	height:32px;
+	list-style-image:none!important;
+	overflow:hidden;
+}
+div.gk_tab_container0-style1 {
+	clear: both;
+}
+div.gk_tab_container1-style1 {
+	overflow: hidden;
+}
+div.gk_tab_item-style1 {
+	float: left;
+	overflow: hidden;
+	padding: 0;
+}
+div.gk_tab_item-style1 h4.gk_tab_news_header {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 8px 0;
+}
+div.gk_tab_item-style1 p.gk_tab_news_text{
+	font-size: 12px;
+}
+div.gk_tab_item-style1 img.gk_tab_news_image{
+	padding: 2px;
+}
+ul.gk_tab_ul-style1 li,
+ul.gk_tab_ul-style1 li.active{
+	float:left;
+	width:auto;
+	height:20px;
+	cursor:pointer;
+	border:none!important;
+	font-size:12px;
+	line-height:20px;
+	margin:0 0 0 8px!important;
+	font-weight:bold;
+}
+ul.gk_tab_ul-style1 li:first-child{
+	margin:0!important;
+}
+ul.gk_tab_ul-style1 li span,
+ul.gk_tab_ul-style1 li.active span{
+	display:block;
+	height:20px!important;
+	line-height:18px!important;
+}
+/* Image Show
+---------------------------------------------------------------*/
+.gk_is_wrapper{
+	position:relative;
+	overflow:hidden;
+}
+.gk_is_preloader{
+	position:absolute;
+	z-index:999;
+	width:100%;
+	height:100%;
+}
+.gk_is_thumbs{
+	position:absolute;
+	z-index:998;
+	overflow:hidden;
+}
+.gk_is_slide{
+	position:absolute;
+}
+.gk_is_text{
+	position:absolute;
+	z-index:997;
+	left:10px;
+	padding:10px;
+	font-size:14px;
+	margin-right:10px;
+}
+.gk_is_text h4{
+	font-weight:bold;
+}
+.gk_is_text_bg{
+	position:absolute;
+	z-index:996;
+}
+.gk_is_text p{
+	font-size:13px;
+	color:#333;
+}
+.gk_is_text_data{
+	display:none;
+}
+.gk_is_pagination{
+	list-style-type:none!important;
+	position:absolute;
+	z-index:998;
+	left:600px;
+}
+.gk_is_pagination li{
+	float:left;
+	text-indent:-999em;
+	width:14px;
+	height:13px;
+	margin-right:7px;
+	cursor:pointer;
+}
+.gk_is_thumbs .arrow{
+	width:13px;
+	height:9px;
+	position:relative;
+	top:-1px;
+	left:8px;
+}
+/* Basic Kunena Forum Styling */
+
+/* HEADER
+----------------------------------------------------------------------------------------------- */
+#Kunena .fb_header {background: none;line-height: 20px; margin-bottom: 15px;}
+#Kunena .fb_header_th_1 { padding:5px; }
+td.fb_profileboxcnt{ width:95%;}
+
+/* TOPMENU
+----------------------------------------------------------------------------------------------- */
+#Kunena .fb_header div#fb_topmenu a { color: #fff; padding: 0 8px; font-weight: normal;font-size: 14px; background: transparent url('../images/style1/menu_item_l.png') no-repeat scroll left bottom;}
+#Kunena .fb_header div#fb_topmenu a:hover{color: inherit;}
+
+/* SEARCHBOX
+----------------------------------------------------------------------------------------------- */
+#fb_searchbox {width:auto; white-space: nowrap;} /* searchbox div */
+#fb_searchbox form{margin:  0;padding: 0;} /* searchbox form */
+#fb_searchbox .fb_search_inputbox {width: auto;margin: 0 0 0 5px;border: 1px solid #666666;background: #FFFFFF url(images/search_icon.gif) no-repeat 5px center;font-weight: normal;padding: 2px 5px 2px 20px;}
+#fb_searchbox .fb_search_button { margin:0 5px 0 0;}
+.fb_search-results {color:#FF0000; font-weight:bold;}
+/* CATEGORY LIST
+----------------------------------------------------------------------------------------------- */
+#Kunena table.fb_blocktable { width:  100%; margin: 5px 0; border-style:solid; border-color:#CCCCCC; border-width:0px 0px 4px 0px; text-align:left; }
+#Kunena table.fb_blocktable thead tr th { background: #7F9DB9; padding: 2px; color:#ffffff; font-weight:normal; }
+#Kunena div.fb_title_cover { float:left; text-align:left; color:#FFFFFF; font-weight:normal; line-height:normal; padding:2px; }

@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+	
+/* Rules to fixing problems in IE7 */
+div#popup_login,
+div#popup_register{
+	margin-left:480px;
+}
+.us_width-20{ width:19.9%!important; }
+.us_width-25{ width:24.9%!important; }
+.us_width-33{ width:32.9%!important; }
+.us_width-33:first-child{ width:33.9%!important; }
+.us_width-50{ width:49.9%!important; }
+.us_width-100{ width:100%!important; }
+
+div#popup_login .button{
+	line-height:16px!important;
+	padding:0 14px 2px 14px!important;
+}
+div#popup_login,
+div#popup_register{
+	margin:0 auto!important;
+}
+div#horiz-menu{
+	z-index:100000;
+}
+div#top{
+	min-height:88px;
+}
+
+.moduletable_content ul{
+	list-style-position: outside!important;
+}

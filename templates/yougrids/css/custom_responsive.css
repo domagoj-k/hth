@@ -1,0 +1,71 @@
+ /*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+ 
+@media screen and (max-width: 980px) {
+	#topmenu_holder.dropped {
+		-webkit-box-shadow:none;
+		-khtml-box-shadow:none;
+		-moz-box-shadow:none;
+		box-shadow:none;
+		border:none;
+		background:none;
+		padding-bottom:30px!important;
+	}
+	.top_menu_poz_navbar,
+	#mmenu_holder{
+		width:280px!important;
+	}
+	.navbar-inner {
+		-webkit-box-shadow:none;
+		-khtml-box-shadow:none;
+		-moz-box-shadow:none;
+		box-shadow:none;
+	}
+	.navbar-inner {
+		border: 1px solid #D4D4D4;
+	}
+	.yjsquare.yjsearch.forceright225 {
+		float:none!important;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.blue_yjsg2_out {
+		border-top:1px solid #d8d8d8;
+	}
+	.linkgroup {
+		width:50%;
+	}
+	body.style_metal #header,
+	body.style_metal #topmenu_holder,
+	body.style_mesh #header,
+	body.style_mesh #topmenu_holder{
+		background:#121212!important;
+	}
+}
+@media screen and (max-width: 680px) {
+	.yjsgintro h1 {
+		font-size:40px;
+	}
+	h2.yjpresents {
+		font-size:25px;
+	}
+	#visityjsg {
+		width:250px;
+		height:130px;
+	}
+	#visityjsg h3 {
+		font-size:25px;
+		line-height:30px;
+	}
+}

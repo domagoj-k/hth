@@ -1,0 +1,203 @@
+/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* ------------------------- STYLE3 --------------------------*/
+/* Template styles - template_css.css */
+body { color:#222; }
+/* Basic link styles 
+---------------------------------------------------------------*/
+a { color:#8f2096; }
+a:hover { color:#444; }
+/* Page structure
+------------------------------------------------------------*/
+/* menu */
+div#menu { background:transparent url('../images/style3/menu_bg.png') no-repeat 0 0; color:#fff; }
+div#menu a { color:#fff; }
+div#menu li.level1:hover a, div#menu li.level1:hover span.separator { background:transparent url('../images/style3/menu_item_r.png') no-repeat right bottom; }
+div#menu li.level1:hover a span, div#menu li.level1:hover span.separator span { background:transparent url('../images/style3/menu_item_l.png') no-repeat left bottom; }
+div#menu li.level1.active a, div#menu li.level1.active span.separator { background:transparent url('../images/style3/menu_item_r.png') no-repeat right top; }
+div#menu li.level1.active a span, div#menu li.level1.active span.separator span { background:transparent url('../images/style3/menu_item_l.png') no-repeat left top; }
+div#menu li li { background:#aa30ab; border-top:1px solid #b537b6!important; }
+div#menu li li:first-child { border-top: none!important; }
+div#menu ul ul { background:#aa30ab; padding: 6px 6px 0; }
+div#menu li li:hover, div#menu li li.active, div#menu li li.current { background:#952296; }
+/* userarea */
+div#userarea { background:transparent url('../images/style3/login_bg_r.png') no-repeat right 0; }
+div#userarea div { background:transparent url('../images/style3/login_bg_l.png') no-repeat 0 0; }
+div#userarea div span#login { border-right:1px solid #222427; }
+/* stylearea */
+div#stylearea { color:#cacaca; }
+div#stylearea span { color: #48494A; }
+/* highlight */
+div#highlight { background:#242629; border-top:1px solid #272923; }
+/* content */
+div#content { background:#fff; }
+div#mainbody_wrap { background:transparent url('../images/style3/component_bg_l.png') no-repeat 0 0; }
+div#mainbody { background:transparent url('../images/style3/component_bg_r.png') no-repeat right 0; }
+/* message */
+#system-message .message.message { background: #83aecd; }
+/* bottom */
+div#bottom2 { background:transparent url('../images/style3/bottom_bg.png') repeat-x 0 0; }
+/* footer */
+div#footer { color:#48494A; }
+div#footer a { color:#48494A; }
+div#footer a:hover { color:#aa30ab; }
+/*  Restrictions & suffixes
+------------------------------------------------------------*/
+/* column */
+#left .moduletable h3, #left .moduletable_menu h3, #left .moduletable_text h3, #right .moduletable h3, #right .moduletable_menu h3, #right .moduletable_text h3 { background:transparent url('../images/style3/header_bg.png') repeat-x 0 0; }
+/* content */
+div#component .moduletable h3, div#component .moduletable_menu h3, div#component .moduletable_text h3 { color:#222; }
+/* bottom */
+div#bottom2 .moduletable h3, div#bottom2 .moduletable_menu h3, div#bottom2 .moduletable_text h3 { color:#fff; }
+div#bottom2 { color:#999; }
+div#bottom2 a { color:#7e7e7e; }
+div#bottom2 a:hover { color:#fff; }
+/* moduletable_menu */
+.moduletable_menu .moduletable_content ul.menu li { border-top: 1px dotted #ccc; }
+.moduletable_menu .moduletable_content ul.menu li:hover { background: #f9f9f9; }
+.moduletable_menu .moduletable_content ul.menu li:first-child { border-top:none; }
+.moduletable_menu .moduletable_content ul.menu li a { color: #222; }
+.moduletable_menu .moduletable_content ul.menu li a:hover { color: #aa30ab; }
+/* popup
+-------------------------------------------------------------------------------*/
+.gk_popup_close { background:transparent url('../images/style3/gk_stuff/popup/close.png') no-repeat 0 0; }
+.gkp_tl { background:transparent url('../images/style3/gk_stuff/popup/tl.png') no-repeat 0 0; }
+.gkp_t { background:transparent url('../images/style3/gk_stuff/popup/bm.png') no-repeat 0 top; }
+.gkp_tr { background:transparent url('../images/style3/gk_stuff/popup/tr.png') no-repeat 0 0; }
+.gkp_ml { background:transparent url('../images/style3/gk_stuff/popup/rm.png') no-repeat left 0; }
+.gkp_m { background:#fff; }
+.gkp_mr { background:transparent url('../images/style3/gk_stuff/popup/rm.png') no-repeat right 0; }
+.gkp_bl { background:transparent url('../images/style3/gk_stuff/popup/bl.png') no-repeat 0 0; }
+.gkp_b { background:transparent url('../images/style3/gk_stuff/popup/bm.png') no-repeat 0 bottom; }
+.gkp_br { background:transparent url('../images/style3/gk_stuff/popup/br.png') no-repeat 0 0; }
+/* Gavick modules
+------------------------------------------------------------*/
+/* GK Tab */
+.gk_tab_ul-style1 { background:transparent url('../images/style3/header_bg.png') repeat-x 0 0; }
+.gk_tab_ul-style1 li { color:#222!important; background:transparent url('../images/style3/gk_stuff/tab_l.png') no-repeat 0 0; }
+.gk_tab_ul-style1 li span { background:transparent url('../images/style3/gk_stuff/tab_r.png') no-repeat right 0; }
+.gk_tab_ul-style1 li:hover { color:#fff!important; }
+.gk_tab_ul-style1 li.active { color:#fff!important; background:transparent url('../images/style3/gk_stuff/tab_active_l.png') no-repeat 0 0; }
+.gk_tab_ul-style1 li.active span { background:transparent url('../images/style3/gk_stuff/tab_active_r.png') no-repeat right 0; }
+/* NSPro */
+
+div.gk_npro_full_prev, div.gk_npro_short_prev { background:transparent url('../images/style3/gk_stuff/nspro_arrows.png') no-repeat 0 0; }
+div.gk_npro_full_next, div.gk_npro_short_next { background:transparent url('../images/style3/gk_stuff/nspro_arrows.png') no-repeat right 0; }
+div.gk_npro_full_prev:hover, div.gk_npro_short_prev:hover { background:transparent url('../images/style3/gk_stuff/nspro_arrows.png') no-repeat 0 bottom; }
+div.gk_npro_full_next:hover, div.gk_npro_short_next:hover { background:transparent url('../images/style3/gk_stuff/nspro_arrows.png') no-repeat right bottom; }
+div.gk_npro_full_interface ul li, div.gk_npro_full_interface ul li:first-child { background:transparent url('../images/style3/gk_stuff/nspro_bullets.png') no-repeat 0 bottom; }
+div.gk_npro_full_interface ul li.active { background:transparent url('../images/style3/gk_stuff/nspro_bullets.png') no-repeat 0 top; }
+div.gk_npro_mainwrap h4, div.gk_npro_mainwrap h4 a { color:#222; }
+div.gk_npro_mainwrap h4 a:hover { color:#aa30ab; }
+div.gk_npro_short_ulwrap ul li { color:#aaa; border-bottom:1px dotted #ccc; }
+.color div.nspro_bg_wrap { background:#f2f2f2; }
+.color div.nspro_bg_wrap p { color:#7f7f7f; }
+.color .odd div.nspro_bg_wrap { background:#faddfa; }
+/* Image Show */
+.gk_is_text h4, .gk_is_text h4 a{color:#8f2096;}
+.gk_is_preloader { background: #fff url('../images/style3/gk_stuff/loader.gif') no-repeat center center; }
+.gk_is_text_bg { opacity:0.7; filter:alpha(opacity=70); -moz-opacity:0.7; background:#fff; }
+.gk_is_pagination li { background:transparent url('../images/style3/gk_stuff/is_bullet.png') no-repeat 0 top; }
+.gk_is_pagination .active { background:transparent url('../images/style3/gk_stuff/is_bullet.png') no-repeat 0 bottom; }
+.gk_is_thumbs { position:absolute; z-index:998; }
+.gk_is_thumbs .img { border:1px solid #f1f1f1; background:#fff url('../images/style3/gk_stuff/loader_small.gif') no-repeat center center; position:relative; }
+.gk_is_thumbs .img img { position:absolute; }
+/* Standard Joomla modules
+------------------------------------------------------------*/
+/* mod_breadcrumb */
+.breadcrumbs_wrap { background:transparent url('../images/style3/breadcrumb_bg_l.png') no-repeat 0 0; }
+.breadcrumbs { background:transparent url('../images/style3/breadcrumb_bg_r.png') no-repeat right 0; }
+.breadcrumbs .youah { background:transparent url('../images/style3/youah_l.png') no-repeat 0 0; color:#fff; }
+.breadcrumbs .youah span { background:transparent url('../images/style3/youah_r.png') no-repeat right 0; }
+.breadcrumbs .separator { background:transparent url('../images/style3/breadcrumb_bullet.png') no-repeat 0 0; }
+.breadcrumbs .pathway, .breadcrumbs .last { color:#222; }
+.breadcrumbs .pathway:hover { color:#aa30ab; }
+.breadcrumbs .last { color:#aa30ab; }
+/* mod lists */
+.moduletable_content li { color:#ccc; }
+/* mod menus */
+.moduletable_menu li span.separator { color:#222; }
+div#bottom2 .moduletable_menu li span.separator { color:#fff; }
+/* mod_advert */
+div.banneritem, div.banneritem_menu, div.banneritem_text { border-bottom:1px dotted #ccc!important; }
+/* Joomla classes */
+.small { color:#cacaca; }
+.info_date { color:#919191; }
+.info_author { color:#aa30ab; }
+td.sectiontableheader { border-bottom:1px solid #DFDFDF; border-top:1px solid #DFDFDF; background:#efefef; }
+.description { color: #7F7F7F; }
+tr.sectiontableentry1 td, tr.sectiontableentry2 td { border-bottom:1px solid #dfdfdf; }
+tr.sectiontableentry1:hover td, tr.sectiontableentry2:hover td { background:#fafafa; }
+div.img_caption p { color: #909090; }
+div.img_caption.left, div.img_caption.right { border:1px solid #f2f2f2; }
+/* Typography - template_css.css
+------------------------------------------------------------------*/
+/* Code */
+pre, .code1, .code2 { background:#f7f7f7; }
+pre, .code1 { border-left:5px solid #aa30ab; }
+.code2 { border-top:5px solid #aa30ab; border-bottom:5px solid #aa30ab; }
+.code3 { border-top:1px solid #aa30ab; border-bottom:1px solid #aa30ab; }
+.code3 h4 { background:#fff; }
+/* Warnings */
+p.info1, p.info2, p.info3, p.info4 { background:transparent url('../images/icons/info.gif') no-repeat left center; }
+p.warning1, p.warning2, p.warning3, p.warning4 { background:transparent url('../images/icons/warning.gif') no-repeat left center; }
+p.tips1, p.tips2, p.tips3, p.tips4 { background:transparent url('../images/icons/tips.gif') no-repeat left center; }
+p.info2, p.info4 { border-top:#3399ff solid 1px; border-bottom:#3399ff solid 1px; background-position:3px center; }
+p.info3, p.info4 { background-color:#E6F1FF; background-position: 7px center; }
+p.warning2, p.warning4 { border-top:#f71212 solid 1px; border-bottom:#f71212 solid 1px; background-position: 3px center; }
+p.warning3, p.warning4 { background-color:#FFE5E0; background-position: 7px center; }
+p.warning4 { border-top:#f71212 solid 1px; border-bottom:#f71212 solid 1px; }
+p.tips2, p.tips4 { border-top:#fde647 solid 1px; border-bottom:#fde647 solid 1px; background-position:3px center; }
+p.tips3, p.tips4 { background-color:#FDFFC7; background-position: 7px center; }
+p.tips4 { border-top:#fde647 solid 1px; border-bottom:#fde647 solid 1px; }
+/* Blockquotes */
+blockquote div.blockquote1 { background:transparent url(../images/style3/gk_stuff/typography/open1.png) no-repeat left bottom; }
+blockquote div.blockquote1 div { background:transparent url(../images/style3/gk_stuff/typography/close1.png) no-repeat right top; }
+blockquote div.blockquote2 { background:transparent url(../images/style3/gk_stuff/typography/open1.png) no-repeat left top; }
+blockquote div.blockquote2 div { background:transparent url(../images/style3/gk_stuff/typography/close1.png) no-repeat right top; }
+blockquote div.blockquote3 { background:transparent url(../images/style3/gk_stuff/typography/open2.png) no-repeat left bottom; }
+blockquote div.blockquote3 div { background:transparent url(../images/style3/gk_stuff/typography/close2.png) no-repeat right top; }
+blockquote div.blockquote4 { background:transparent url(../images/style3/gk_stuff/typography/open2.png) no-repeat left top; }
+blockquote div.blockquote4 div { background:transparent url(../images/style3/gk_stuff/typography/close2.png) no-repeat right top; }
+/* Legends */
+div.legend1 h4, div.legend2 h4, div.legend3 h4, div.legend4 h4, div.legend5 h4, div.legend6 h4 { background: #f5f5f5; }
+div.legend3 h4:first-child, div.legend5 h4:first-child { background:#e7e7e7; }
+div.legend4 h4:first-child, div.legend6 h4:first-child { border:solid 1px #666; }
+div.legend1, div.legend5, div.legend6 { border:solid 1px #666; }
+div.legend2, div.legend3, div.legend4 { border-top:solid 1px #666; border-bottom:solid 1px #666; }
+/* Highlights */
+.highlight-1 { background:#ffffda; }
+.highlight-2 { background:#aa30ab; color:#fff; }
+.highlight-3 { background:#cfcbbc; color:#fff; }
+.highlight-4 { background:#101011; color:#fff; }
+/* Colors for spans */
+span.clear { border-top:1px solid #aa30ab; border-bottom:1px solid #aa30ab; color:#aa30ab; }
+span.clear-1 { border-top:1px solid #cfcbbc; border-bottom:1px solid #cfcbbc; color:#cfcbbc; }
+span.clear-2 { border-top:1px solid #101011; border-bottom:1px solid #101011; color:#101011; }
+span.color { color:#aa30ab; }
+span.color-1 { color:#cfcbbc; }
+span.color-2 { color:#aa30ab; border-left:2px solid #aa30ab; }
+span.color-3 { color:#101011; border-left:2px solid #101011; }
+span.color-4 { color:#fff; background:#aa30ab; }
+span.color-5 { color:#fff; background:#cfcbbc; }
+span.color-6 { color:#d48d1c; background:#ffe; border-top:1px solid #e9e9a1; border-bottom:1px solid #e9e9a1; }
+span.color-7 { background:#222; color:#fff; }
+/* unordered lists */
+ul.circle1 { list-style-image:url(../images/style3/gk_stuff/typography/bullet3ul.png); }
+ul.circle2 { list-style-type:circle; }
+ul.bullet1 { list-style-image:url(../images/style3/gk_stuff/typography/bullet_ol_1_dark.png); }
+ul.bullet2 { list-style-image:url(../images/style3/gk_stuff/typography/bullet1ul.png); }
+ul.bullet3 { list-style-image:url(../images/style3/gk_stuff/typography/bullet2ul.png); }
+ul.bullet4 { list-style-image:url(../images/style3/gk_stuff/typography/bullet_ol_1_color.png); }
+ul.square1 { list-style-type:square; }
+ul.square2 { list-style-image:url(../images/style3/gk_stuff/typography/bullet_squ1_dark.png); }
+ul.square3 { list-style-image:url(../images/style3/gk_stuff/typography/bullet_squ1_color.png); }
+/* Numbers */
+div.number1 span { background:transparent url(../images/style3/gk_stuff/typography/bullet_ol_2.png) no-repeat center center; color:#fff; }
+div.number2 span { background:transparent url(../images/style3/gk_stuff/typography/bullet_ol_2_color.png) no-repeat center center; color:#fff; }

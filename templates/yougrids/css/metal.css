@@ -1,0 +1,539 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimplemetal Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplemetal.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/*BODY ID'S USED FOR CSS FONT STYLES AND BASE SITE BODY STYLING */
+body#stylef1,
+body#stylef2,
+body#stylef3,
+body#stylef4,
+body#stylef5,
+body#stylef6,
+body#stylef7,
+body#stylef8,
+body#stylef9,
+body#stylef10,
+body#stylef11,
+body#stylef12,
+body#stylef13,
+body#stylef14,
+body#stylef15,
+body#stylef16 {
+	background:#E8E8E8 url(../images/metal/background.jpg) no-repeat center top;
+	color:#555;
+}
+/* BOTTOM PART OF THE SITE LAYOUT. BASE WRAP */
+#centerbottom {
+	background:#fff;
+}
+/*GRIDS STYLING CAN BE USED TO STYLE EACH metal DIFFERENTLY */
+#yjsg1 {
+	background:#292929;
+	color:#efefef;
+}
+#header {
+	background:#212121 url(../images/metal/header_bg.jpg) no-repeat left top;
+}
+#logo {
+	background:url(../images/metal/logo.png) no-repeat 0px 0px;
+}
+#yjsgheadergrid {
+	color:#efefef;
+}
+#yjsg2 {
+	background:#d9d9d9 url(../images/metal/yjsg2_bg.jpg);
+}
+#yjsg3 {
+	background:#fff;
+}
+#yjsg4 {
+	background:#d9d9d9;
+}
+#yjsg5 {
+	background:#e1e1e1;
+}
+#yjsg6 {
+	background:#f2f2f2;
+}
+#yjsg7 {
+	background:#292929;
+	color:#efefef;
+}
+#footer {
+	background:#121212 url(../images/metal/footer.jpg) no-repeat right top;
+	color:#3C3C3C;
+}
+#joomlacredit {
+	background:#1F1F1F;
+	color:#474646;
+}
+/*TEMPLATE CSS 
+--------------------- */
+/* SITE LINKS */
+a {
+	text-decoration: none;
+	color:#121212;
+}
+/* SITE HOVERS */
+a:focus,
+a:hover {
+	color:#525252;
+	text-decoration: none;
+}
+/*DIFFERENT STYLE FOR  LINKS ON DARK BG
+--------------------- */
+#footer a,
+#yjsg1 a,
+#yjsg7 a,
+#joomlacredit a,
+#pathway a {
+	color:#727272;
+}
+#footer a:hover,
+#yjsg1 a:hover,
+#yjsg7 a:hover,
+#joomlacredit a:hover,
+#pathway a:hover {
+	color:#525252;
+}
+/* SITE HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color:#727272;
+}
+.small,
+.createdate,
+.modifydate,
+.createby {
+	color:#ccc;
+}
+/* ARTICLE TABLE OF CONTENTS */
+fieldset,
+.toclink {
+	border:1px solid #c8c8c8;
+}
+/* INPUTBOXES */
+.inputbox {
+	background: #FFFFFF;
+	border: 1px solid #c8c8c8;
+}
+.inputbox:hover,
+.inputbox:focus {
+	background: #F7F7F7;
+	border: 1px solid #525252;
+}
+/*BUTTONS AND READON
+--------------------- */
+.button,
+.validate,
+a.readon {
+	background:#c8c8c8;
+	text-shadow:none;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.readon span {
+}
+a.readon:hover {
+}
+/*TOP MENU STYLE FOR SPLIT MENU, CSS DROPDOWN AND SMOOTH DROPDOWN
+--------------------- */
+.horiznav {
+	background: url(../images/metal/topmenu/horiz_bg.png) repeat-x 0 top;
+}
+/* MENU OVERRIDES */
+.YJSG_listContainer {
+	background:none;
+}
+/* NORMAL SUBTITLE */
+.horiznav ul li a span.yjm_desc {
+	color:#8b8b8b;
+}
+/*ACTIVE AND HOVER SUBTITLE*/
+.horiznav ul li.active a span.yjm_desc,
+.horiznav ul li a:hover span.yjm_desc,
+.horiznav ul li.sfHover a span.yjm_desc {
+	color:#4F4F4F;
+	text-shadow:1px 1px #efefef;
+}
+/* NORMAL TOP LINKS */
+.horiznav ul li {
+	background: url(../images/metal/topmenu/normal_l.png) no-repeat left center;
+}
+.horiznav ul li a,
+.horiznav ul li a:visited {
+	color: #efefef;
+	background: url(../images/metal/topmenu/normal_r.png) no-repeat right center;
+}
+/* NORMAL TOP LINKS WITH CHILD ELEMENT */
+.horiznav ul li.haschild {
+	background: url(../images/metal/topmenu/normal_l_haschild.png) no-repeat left center;
+}
+/* TOP LINKS HOVER */
+.horiznav ul li:hover,
+.horiznav ul li.sfHover {
+	background: url(../images/metal/topmenu/hover_l.png) no-repeat left center;
+}
+.horiznav ul li a:hover,
+.horiznav ul li:hover a,
+.horiznav ul li.sfHover a,
+ .horiznav ul li.sfHoverHas a {
+	color: #121212;
+	background: url(../images/metal/topmenu/hover_r.png) no-repeat right center;
+}
+/* TOP LINKS HOVER WITH CHILD ELEMENT */
+.horiznav ul li.haschild:hover {
+	background: url(../images/metal/topmenu/hover_l_haschild.png) no-repeat left center;
+}
+.horiznav ul li.haschild a:hover {
+	color: #6c6c6c;
+}
+/* ACTIVE TOP LINKS  */
+.horiznav li#current,
+.horiznav li.active {
+	background: url(../images/metal/topmenu/active_l.png) no-repeat left center;
+}
+.horiznav li#current a,
+.horiznav li.active a,
+.horiznav li.active a:visited,
+.horiznav li.active.sfHover a:visited,
+.horiznav li.active.sfHoverHas a:visited {
+	color: #121212;
+	background: url(../images/metal/topmenu/active_r.png) no-repeat right center;
+}
+/* ACTIVE TOP LINKS WITH CHILD ELEMENT */
+.horiznav li#current.haschild,
+.horiznav li.haschild,
+.horiznav ul li.haschild.active,
+.horiznav ul li.sfHoverHas {
+	background: url(../images/metal/topmenu/active_l_haschild.png) no-repeat left center;
+}
+/* ACTIVE TOP LINKS HOVER */
+.horiznav li#current:hover,
+.horiznav li#current.sfHover,
+.horiznav li.active:hover,
+.horiznav li.active.sfHover {
+	background: url(../images/metal/topmenu/active_l.png) no-repeat left center;
+}
+.horiznav li#current a:hover,
+.horiznav li#current.sfHover a:hover,
+.horiznav li.active a:hover {
+	color: #6c6c6c;
+	background: url(../images/metal/topmenu/active_r.png) no-repeat right center;
+}
+/* ACTIVE TOP LINKS HOVER WITH CHILD ELEMENT */
+.horiznav li#current.haschild:hover,
+.horiznav li#current.haschild.sfHoverHas,
+.horiznav li#current.active.sfHover {
+	background: url(../images/metal/topmenu/active_l_haschild.png) no-repeat left center;
+}
+/* MAIN SUB UL AND MODULE BG */
+ul.subul_main.group_holder,
+.subul_main li.has_modpoz div.yj_menu_module_holder,
+.subul_main li.has_module div.yj_menu_module_holder,
+.subul_main li.haschild div.yj_menu_module_holder,
+.horiznav ul ul.subul_main.dropline {
+	background:#DEDDDD;
+}
+/* end drpline extra */
+.horiznav ul ul.subul_main.dropline ul a,
+.horiznav ul ul.subul_main.dropline ul a:hover,
+ul.subul_main.dropline div.yj_menu_module_holder {
+	border-bottom: 1px solid #c7c5c5!important;
+}
+/*--- end dropline extra ---*/
+
+/* MAIN SUB ITEM*/
+.top_menu ul.subul_main li a {
+	background:#DEDDDD;
+	border-bottom: 1px solid #c7c5c5;
+	color: #121212;
+}
+.top_menu ul.subul_main li a:visited {
+	color: #121212;
+	background:#DEDDDD;
+}
+/*MAIN SUB ITEM HOVER*/
+.top_menu ul.subul_main li a:hover {
+	background:#d5d5d5;
+	color: #121212;
+}
+.top_menu ul.subul_main li,
+.top_menu ul.subul_main li.active,
+.top_menu ul.subul_main li.active:visited,
+.top_menu ul.subul_main li.active:hover,
+.top_menu ul.subul_main li:hover,
+.top_menu ul.subul_main li:visited,
+.top_menu ul.subul_main li#current,
+.top_menu ul.subul_main li#current:hover {
+	border:none;
+	background:none;
+}
+/*MAIN SUB ACTIVE UL A ITEMS*/
+.top_menu li#current ul.subul_main li a,
+.top_menu li.active ul.subul_main li a {
+	background:#DEDDDD;
+	color: #121212;
+}
+/*MAIN SUB ACTIVE UL ITEMS A HOVER*/
+.top_menu li#current ul.subul_main li a:hover,
+.top_menu li.active ul.subul_main li a:hover,
+.top_menu li#current.sfHover ul.subul_main li a:hover,
+.top_menu li.active.sfHover ul.subul_main li a:hover {
+	background:#d5d5d5;
+	color: #121212;
+}
+/*MAIN SUB UL ACTIVE LI A ITEM*/
+.top_menu ul.subul_main li#current a {
+	background:#d5d5d5;
+	color: #121212;
+}
+/*MAIN SUB UL ACTIVE LI A ITEM HOVER*/
+.top_menu ul.subul_main li#current a:hover,
+.top_menu ul.subul_main li#current.sfHover {
+	background:#ccc;
+	color: #121212;
+}
+/*SUB LEVEL PARENT ITEM ARROWS*/
+ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a {
+	background-image:url(../images/metal/topmenu/arrow_right.gif)!important;
+	background-repeat:no-repeat!important;
+	background-position:95% 50%!important;
+}
+ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a:hover {
+	background-image:url(../images/metal/topmenu/arrow_down.gif)!important;
+	background-repeat:no-repeat!important;
+	background-position:95% 50%!important;
+}
+/* IE6 SPECIFIC */
+.horiznav li li.sfHover ul,
+.horiznav li li.sfHoverHas ul,
+.top_menu ul.subul_main.isie {
+	background:#292929;
+}
+/********************** CORNERS FOR MENU UL'S ***************************/
+/*TOP LEFT*/
+.horiznav li.tl,
+.horiznav li.tl:hover {
+	background:transparent url(../images/metal/topmenu/corners/tl.png)!important;
+}
+/* TOP RIGHT*/
+.horiznav li.tr,
+.horiznav li.tr:hover {
+	background:transparent url(../images/metal/topmenu/corners/tr.png) no-repeat right top!important;
+}
+/* BOTTOM RIGHT*/
+.horiznav li.br,
+.horiznav li.br:hover {
+	background:transparent url(../images/metal/topmenu/corners/br.png) no-repeat right bottom!important;
+}
+/* BOTTOM LEFT*/
+.horiznav li.bl,
+.horiznav li.bl:hover {
+	background:transparent url(../images/metal/topmenu/corners/bl.png) no-repeat left bottom!important;
+}
+/* RIGHT MIDDLE */
+.horiznav li.right,
+.horiznav li.right:hover {
+	background:transparent url(../images/metal/topmenu/corners/right.png) no-repeat right bottom!important;
+}
+/********************** YJSG MEGA MENU STYLE ***************************/
+/* Group holder title*/
+.top_menu .horiznav .group_holder li.haschild a,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild a {
+	color: #888;
+	border:none;
+	background:none;
+}
+.top_menu .horiznav .group_holder li.haschild a:hover,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild a:hover {
+	color: #121212;
+	background:none;
+}
+/* Group holder items title*/
+.top_menu .horiznav .group_holder li.haschild li a,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild li a {
+	color: #121212;
+	border-bottom: 1px solid #c7c5c5;
+	background:#DEDDDD;
+}
+.top_menu .horiznav .group_holder li.haschild li a:hover,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild li a:hover {
+	color: #121212;
+	background:#d5d5d5;
+}
+span.separator {
+	background:#DEDDDD;
+	border-bottom: 1px solid #c7c5c5;
+	color: #121212;
+}
+/*Menu module links*/
+div.yj_menu_module_holder .yjsquare_in a:link,
+div.yj_menu_module_holder .yjsquare_in a:visited {
+	color:#121212!important;
+}
+div.yj_menu_module_holder .yjsquare_in a:focus,
+div.yj_menu_module_holder .yjsquare_in a:hover {
+	color:#525252!important;
+}
+/*SIDE MENU MODULE
+--------------------- */
+#mainlevel li a,
+.menu li a,
+a.mainlevel {
+	background: url(../images/metal/mainlevel.gif) no-repeat left top;/* LINKS BG IMAGE */
+}
+/* HOVER AND ACTIVE LINKS BG IMAGE */
+#mainlevel li a:hover a.mainlevel:hover,
+a.mainlevel#active_menu,
+#mainlevel li a:hover,
+.menu li a:hover,
+.menu li.active a {
+	background: url(../images/metal/mainlevel.gif) no-repeat left bottom;
+}
+/* SUB LEVELS LI IMAGE */
+a.sublevel {
+	background: url(../images/metal/bodyli.gif) no-repeat 7px 9px;
+}
+a.sublevel:hover {
+	text-decoration:underline;
+}
+/* SITES LI IMAGE */
+ul li {
+	background: url(../images/metal/bodyli.gif) no-repeat 0px 7px;
+}
+/*USER PAGES STYLE */
+div.userpages {
+	background:#f5f5f5;
+	border:1px solid #ddd;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0 0 8px #e2e2e2;
+	-khtml-box-shadow:0 0 8px #e2e2e2;
+	-moz-box-shadow:0 0 8px #e2e2e2;
+	box-shadow:0 0 8px #e2e2e2;
+}
+div.userpages h1 {
+	text-shadow:1px 1px #fff;
+}
+/* pagination */
+ul.pagination li a,
+ul.pagination li span,
+th.pagenav_prev a,
+th.pagenav_next a,
+div.back_button a,
+li.pagenav-next a,
+li.pagenav-prev a {
+	background-image: url(../images/system/pagination.png);
+}
+/* active one*/
+ul.pagination li span {
+	color:#fff;
+}
+/* hover*/
+ul.pagination li a:hover {
+	color:#fff;
+}
+/*SECTION TABLE */
+table.category {
+	border: 1px solid #DDD;
+	border-collapse: separate;
+	border-bottom:none;
+}
+table.category td {
+	border-bottom: 1px solid #DDD;
+}
+th.sectiontableheader {
+	border-bottom: 1px solid #DDD;
+	background:#fff;
+}
+tr.sectiontableentry1 td {
+	background-color: #fafafa;
+}
+tr.sectiontableentry2 td {
+	background-color: #fff;
+}
+tr.sectiontableentry1:hover td,
+tr.sectiontableentry2:hover td {
+	background-color: #f7f7f7;
+}
+/* responsive menu */
+#mmenu_holder {
+	background:#222!important;
+	border: 1px solid #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/* search inputbox */
+#yjsgheadergrid .yjsquare.yjsearch input {
+	background:#222!important;
+	border:1px solid #333333;
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+#yjsgheadergrid .yjsquare.yjsearch input:focus {
+	background:#2c2c2c!important;
+	border-color:#333333;
+	outline: 0;
+	outline: thin dotted 9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #333333;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #333333;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #333333;
+}
+/* Bootstrap navbar border radius and shadow reset */
+div.top_menu_poz_navbar .navbar-inner,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	-webkit-border-radius:0px;
+	-khtml-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	-webkit-box-shadow:none;
+	-khtml-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+/* pathway */
+#pathway .breadcrumb {
+	background-color:#212121;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius:0px;
+}
+#pathway .breadcrumb li {
+	display: inline-block;
+	text-shadow:none;
+}
+#pathway .breadcrumb .active {
+	color: #999;
+}
+#pathway .breadcrumb .divider {
+	color: #4a4a4a;
+}

@@ -1,0 +1,89 @@
+﻿/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* Joomla style
+--------------------------------------------------------- */
+/* headings */
+h1.componentheading, .componentheading { line-height:39px; margin:10px 0 20px; font-size:18px;;
+	color:#900200;
+	border-bottom-style:inset;
+	border-bottom-color:#9F7722;
+	border-left-style:inset;
+	border-left-color:black;
+
+}
+.componentheading { text-align: left; 
+	background-color:#e0cea0;
+
+}
+.contentdescription { padding:6px 6px 16px 6px; }
+h2.contentheading, .contentheading, table.blog .contentheading { 
+height:36px; line-height:26px; padding:0!important; 
+font-size:14px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+text-transform:uppercase;
+color:#900200;
+border-bottom-style:inset;
+border-bottom-color:#9F7722;
+}
+.contentdescription { padding:6px 0!important; }
+.contentdescription img { padding:0 7px 8px 0; }
+/* article structure */
+.spacer {padding: 8px 0;}
+.contentpaneopen tr td { padding-bottom:6px!important;
+}
+.contentpaneopen tr:first-child td { padding-bottom:6px!important;}
+.article_separator { clear:both; display:block; height:10px; }
+.column_separator { padding: 0 0 0 25px; }
+td.buttonheading { width:14px; margin-left:6px; text-align:right; padding:2px 0 0 2px!important; }
+.buttonheading img { margin:0 8px 0 0; border:0; float:right; height:12px; }
+.createdate { font-style:italic; }
+.createby { padding:3px 3px 3px 20px; }
+.written_by { padding:0; }
+.modifydate { text-align:right; font-style:italic; padding:0 6px 0 0; line-height:12px; font-size: 10px; }
+.buttonheading img{ width:12px!important; height:11px!important; }
+/* blog more */
+div.blog_more ul { list-style-type:disc; margin-left:12px; padding-left:3px; }
+div.blog_more li { padding-left:0; line-height:120%; }
+/* readon */
+a.readon, .back_button a, .button, .validate { height:20px!important; line-height:20px!important; border:none; margin:0; padding:0 8px; padding-right: 10px; cursor:pointer; }
+.button, .validate { 
+padding-bottom:4px; font-weight:normal; padding-right: 10px; cursor:pointer; 
+background-color:#666666;
+color:#FFFFFF;
+}
+a.readon, .back_button a { display:block; float:left; }
+a.readon:hover, a.readon:active, a.readon:focus, .back_button a:hover { text-decoration:none; }
+/* Pagination */
+ul.pagination { margin:15px auto 0; padding:10px 0; text-align:center; }
+ul.pagination li { margin:0; padding:0; display:inline; background:none; }
+ul.pagination a, ul.pagination li span { padding:2px 5px; font-size:10px; text-transform:uppercase; }
+/* Module Advertisement */
+div.banneritem, div.banneritem_menu, div.banneritem_text { padding:5px 0!important; border-bottom:1px dotted; }
+.bannerheader, .bannerheader_text, .bannerheader_menu, .bannerheader_dark, .bannerheader_bright, .bannerfooter, .bannerfooter_text, .bannerfooter_menu, .bannerfooter_dark, .bannerfooter_bright { padding:3px; font-style:italic; font-size: 0.9em; }
+.bannerfooter, .bannerfooter_menu, .bannerfooter_text, .bannerfooter_dark, .bannerfooter_bright { text-align:right; }
+/* inputbox */
+input.inputbox, input.inputbox_dark, input.inputbox_bright { padding:1px 4px 0 4px; height:18px; font-size:14px; }
+/* IMG caption */
+img.caption { margin:0; width:auto!important; }
+div.img_caption p { margin:0; font-size:11px; min-height:22px; line-height:20px; }
+div.img_caption.left, div.img_caption.right { margin:5px 26px 2px 0; }
+div.img_caption.right { margin-left:26px; margin-right:0; }
+/* tables */
+td.sectiontableheader { text-align:left!important; padding:10px 5px; }
+tr.sectiontableentry0 td, tr.sectiontableentry1 td, tr.sectiontableentry2 td { padding:8px 5px; text-align:left; }
+td.sectiontableentry0, td.sectiontableentry1, td.sectiontableentry2 { padding: 3px; }
+#limit { margin-bottom:10px; }
+/* polls */
+h5.polltitle { font-size: 12px; margin: 15px 0; }
+.polllevel { border-bottom: 1px dotted #ccc; margin: 0; line-height: 32px; }
+.polllevel:hover { background: #f9f9f9; }
+.pollbuttons { clear: both; margin: 20px auto 10px; width: auto; }
+.pollbuttons span, .form_buttons span.btn{ background:transparent url('../images/style1/button_left.png') no-repeat 0 0; display: block; float: left; padding-left: 8px; margin-right: 8px; }
+.pollbuttons .button, .form_buttons .button { background:transparent url('../images/style1/button_right.png') no-repeat 100% 0; padding: 0 12px 3px 4px; }

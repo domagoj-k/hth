@@ -1,0 +1,391 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimplegrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/*BODY ID'S USED FOR CSS FONT STYLES AND BASE SITE BODY STYLING */
+body#stylef1,
+body#stylef2,
+body#stylef3,
+body#stylef4,
+body#stylef5,
+body#stylef6,
+body#stylef7,
+body#stylef8,
+body#stylef9,
+body#stylef10,
+body#stylef11,
+body#stylef12,
+body#stylef13,
+body#stylef14,
+body#stylef15,
+body#stylef16 {
+	background:#fff;
+	color:#555;
+}
+.blue_yjsg2_out {
+	background:#fafafa;
+}
+.blue_yjsg3_out {
+	background: #fff;
+	border-bottom:1px solid #d8d8d8;
+	border-top:1px solid #d8d8d8;
+}
+.blue_yjsg4_out {
+	background: #FAFAFA;
+	border-bottom:1px solid #d8d8d8;
+}
+/* footer_holders */
+.footer_holders {
+	border-top:1px solid #d8d8d8;
+	background:#f9f9f9;
+}
+.footer_holders.footer {
+	background:#f3f3f3;
+}
+#centerbottom {
+	background:#fff;
+}
+#logo {
+	background:url(../images/blue/logo.png) no-repeat 0px 0px;
+}
+/* SITE LINKS */
+a {
+	text-decoration: none;
+	color:#007ebd;
+}
+/* SITE HOVERS */
+a:focus,
+a:hover {
+	color:#0c5f88;
+}
+/* SITE HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color:#454545;
+}
+/* SITE LI IMAGE */
+ul li {
+	background: url(../images/blue/bodyli.gif) no-repeat 0px 7px;
+}
+/* ARTICLE TABLE OF CONTENTS */
+fieldset, #article-index ul{
+	border:1px solid #dcdcdc;
+}
+#article-index ul li{
+	border-bottom:1px solid #dcdcdc;
+}
+#article-index ul li:last-child{
+	border:none;
+}
+/* INPUTBOXES */
+.inputbox {
+	background: #FFFFFF;
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.inputbox:hover,
+.inputbox:focus {
+	background: #F7F7F7;
+	border: 1px solid #838383;
+}
+/*BUTTONS AND READON
+--------------------- */
+.button,
+.button:hover,
+.validate,
+a.readon,
+a.hover,
+a.focus {
+	background:#007ebd!important;
+	color:#fff;
+	text-shadow:none;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+a.readon:hover {
+	color:#111;
+}
+/*TOP MENU STYLE FOR SPLIT MENU, CSS DROPDOWN AND SMOOTH DROPDOWN
+--------------------- */
+#topmenu_holder.yjsgmega,
+#topmenu_holder.topmodpoz,
+#topmenu_holder.topmodpoz_navbar {
+	background-color: #FAFAFA;
+	background-image: -moz-linear-gradient(top, white, #F2F2F2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#F2F2F2));
+	background-image: -webkit-linear-gradient(top, white, #F2F2F2);
+	background-image: -o-linear-gradient(top, white, #F2F2F2);
+	background-image: linear-gradient(to bottom, white, #F2F2F2);
+	background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	border-top: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+/* sub sub ul border */
+.top_menu ul.subul_main {
+	border: 1px solid #D4D4D4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background:#fff;
+}
+.top_menu ul.group_holder ul.subul_main.level2,
+.top_menu ul.group_holder ul.subul_main.level4 {
+	border:none;
+	-webkit-border-radius:none;
+	-moz-border-radius:none;
+	border-radius:none;
+}
+.top_menu ul.subul_main a.first {
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.top_menu ul.subul_main a.last {
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.top_menu li {
+	background-image:none;
+}
+/* reset Bootstrap navbar */
+	.navbar-inner {
+	-webkit-box-shadow:none;
+	-khtml-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	border:none;
+}
+/* TOP LEVEL LINKS */
+.top_menu ul li a {
+	color:#007ebd;
+}
+/* active and hover */
+.top_menu ul li a:hover,
+.top_menu li.active a.activepath {
+	color: #121212;
+}
+/*SUBTITLE */
+.top_menu ul li a span.yjm_desc {
+	color:#8b8b8b;
+}
+/* active and hover */
+.horiznav ul li.active a span.yjm_desc,
+.horiznav ul li a:hover span.yjm_desc {
+	text-shadow:1px 1px #fff;
+}
+/* HASCHILD ARROWS */
+.top_menu ul li.haschild span.child a {
+	position:relative;
+}
+.top_menu ul li.haschild span.child a:after {
+	font-family: 'FontAwesome';
+	content: "\f0d7";
+	position: absolute;
+	top:30%;
+	left: 0px;
+	padding: 2px 7px;
+}
+.top_menu ul.subul_main li.haschild span.child a:after {
+	font-family: 'FontAwesome';
+	content: "\f0da";
+	position: absolute;
+	top:30%;
+	left:auto;
+	right:10px;
+}
+.top_menu ul.subul_main li.haschild span.child a:hover:after {
+	content: "\f0d7";
+}
+/* rtl */
+body.style_blue.yjsgrtl .top_menu ul.subul_main li.haschild span.child a:after {
+	right:auto;
+	left:10px;
+	content: "\f0d9";
+}
+/*SUB LEVELS A*/
+.top_menu ul.subul_main li a {
+	background:#fff;
+	border-bottom: 1px solid #D4D4D4;
+}
+.top_menu ul.subul_main li a:hover,
+.top_menu ul.subul_main li a.activepath {
+	background:#f5f5f5;
+	color: #121212;
+}
+/* Group holder title*/
+.top_menu ul.subul_main.group_holder li.holdsgroup ul.subul_main {
+	border:none;
+}
+.top_menu ul.subul_main li.holdsgroup a.holdsgroupTitle {
+	border:none;
+	color: #888;
+}
+.top_menu ul.subul_main li.holdsgroup a.holdsgroupTitle:after {
+	display:none;
+}
+/* MODULE IN MENU */
+.top_menu ul.subul_main li.has_module a.yj_menu_module_holder:hover{
+	background:#fff;
+}
+.top_menu ul.subul_main li.has_module .yjsquare_in{
+	color:#555;
+	cursor:default;
+}
+/* SEPARATOR */
+span.separator {
+	color: #888;
+	background:#fff;
+	border-bottom: 1px solid #D4D4D4;
+}
+/* DROPLINE */
+ul.subul_main.dropline.dlevel1 {
+	background:#f8f8f8;
+	border:none;
+	-webkit-box-shadow:inset #D4D4D4 0 1px 0 0, inset 0 5px 5px #f8f8f8, inset 0px -5px 5px #f2f2f2;
+	-moz-box-shadow:inset #D4D4D4 0 1px 0 0, inset 0 5px 5px #f8f8f8, inset 0px -5px 5px #f2f2f2;
+	-khtml-box-shadow:inset #D4D4D4 0 1px 0 0, inset 0 5px 5px #f8f8f8, inset 0px -5px 5px #f2f2f2;
+	box-shadow:inset #D4D4D4 0 1px 0 0, inset 0 5px 5px #f8f8f8, inset 0px -5px 5px #f2f2f2;
+	-webkit-border-radius:0px;
+	-khtml-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+}
+ul.subul_main.dropline.dlevel1 a.dlevel1a {
+	background:none;
+}
+/*SIDE MENU MODULE
+--------------------- */
+.defaultmenu li a {
+	border-bottom: 1px solid #D4D4D4;
+}
+.defaultmenu li a {
+	position:relative;
+	display:block;
+}
+.defaultmenu li a:after {
+	font-family: 'FontAwesome';
+	content: "\f054";
+	position: absolute;
+	top:7px;
+	left:-15px;
+}
+.defaultmenu a.alast {
+	border:none;
+}
+.defaultmenu a.isactivea,
+.defaultmenu li a:hover {
+	background:#f5f5f5;
+	color: #121212;
+}
+/* rtl */
+body.style_blue.yjsgrtl ul.defaultmenu li a:after {
+	content: "\f053";
+	left:auto;
+	right:-15px;
+}
+/* Accordion side menu */
+ul.defaultmenu.yjsgacc li.active_yjsgacc a.yjsgtoggler:after{
+	content: "\f078";
+}
+/* FOOTER MENU MODULE*/
+#footmod ul.defaultmenu li a,
+#footmod ul.defaultmenu li a:hover,
+#footmod ul.defaultmenu a.isactivea {
+	border:none;
+	background:none;
+}
+/*USER PAGES STYLES */
+div.userpages {
+}
+div.userpageswrap.offline div.userpages {
+	border:none;
+	background:#fff;
+}
+div.userpages dt {
+	background:#fff;
+	border:1px solid #ccc;
+}
+/* PAGINATION */
+ul.pagination li a,
+ul.pagination li span,
+th.pagenav_prev a,
+th.pagenav_next a,
+div.back_button a,
+li.pagenav-next a,
+li.pagenav-prev a {
+	background-image: url(../images/blue/pagination.png);
+}
+/* active one*/
+ul.pagination li span {
+	color:#fff;
+}
+/* hover*/
+ul.pagination li a:hover {
+	color:#fff;
+}
+/*SECTION TABLE */
+table.category {
+	border: 1px solid #DDD;
+	border-collapse: separate;
+	border-bottom:none;
+}
+table.category td {
+	border-bottom: 1px solid #DDD;
+}
+th.sectiontableheader {
+	border-bottom: 1px solid #DDD;
+	background:#fff;
+}
+tr.sectiontableentry1 td {
+	background-color: #fafafa;
+}
+tr.sectiontableentry2 td {
+	background-color: #fff;
+}
+tr.sectiontableentry1:hover td,
+tr.sectiontableentry2:hover td {
+	background-color: #f7f7f7;
+}
+.yjsglogo {
+	background: url(../images/blue/yjsglogo.png) no-repeat center center;
+}
+/* responsive menu */
+div#mmenu_holder {
+	background:#fff;
+	border: 1px solid #D4D4D4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}

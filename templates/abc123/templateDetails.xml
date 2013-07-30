@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="1.5" type="template">
+      <name>gk_pulse</name>
+      <creationDate>8/10/2009</creationDate>
+      <author>Robert Gavick - GavickPro</author>
+      <authorEmail>info@gavick.com</authorEmail>
+      <authorUrl>http://www.gavick.com</authorUrl>
+      <copyright>Copyrighted Commercial Software</copyright>
+      <license>Proprietary - GavickPro eClub members only</license>
+      <version>1.0.0</version>
+      <description>
+            <![CDATA[<style type="text/css" media="all">
+                  <!--
+                  #wrap1 {padding:0px 0px 4px 0px;}
+                  h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934;}
+                  .wrap2 {background:#fff;border:1px solid #8F8F8F;padding: 10px;}
+                  -->
+                  </style>
+
+                  <div id="wrap1">
+
+                  <h1>Pulse</h1>
+                  <div class="wrap2">
+                  <a title="Visit the official website!" href="http://www.gavick.com"> <img style="padding-left: 10px;float:right; background-color: #fff;border:1px solid #CFCFCF;margin:0px 20px 2px 20px;" src="../templates/gk_pulse/images/pulse_image.jpg" border="0" alt="Logo" /></a>
+
+
+                  <p><i>"It calls us to experience, feeds us with knowledge and seduces us in ambition."</i></p>
+
+                  <p>Pulsing at a frantic pace, the technological revolution is raging, always bringing us new and innovative solutions to meet new challenges. If today is fiction, tomorrow's reality. </p>
+
+                  <p>Every day, millions are looking to something new in the internet. This is something never seen... Something never heard before. So, is functionality and reliable solutions or the best products enough to your business success? Or do you need also the ultimate professional website presentation?</p>
+
+                  <p>Maybe you've got what millions are looking for.</p>
+                  <p>Are you willing to know ?</p>
+                  <strong>An overview of the key features of this template are as follows:</strong>
+
+                  <ul>
+                  <li>Tableless design and 100% css based.</li>
+                  <li>6 Colors Themes Styles (Blue – Green – Pink – Red – Yellow – Orange)</li>
+                  <li>2 Background variations (Black and White)</li>
+                  <li>Build support for PhotoSlide GK3 component with exclusive Image Show template style design.</li>
+                  <li>Build support for TabsManager GK3 component for tabs content display with exclusive template design.</li>
+                  <li>Build support for the News Show Pro GK1 module (now with new features added).</li>
+                  <li>Disable option for main body appearance on front page.</li>
+                  <li>Option of module as component by setting module on main body position.</li>
+                  <li>Option of Column position to left or right display.</li>
+                  <li>Configurable Column position width.</li>
+
+                  <li>Login and Register buttons options with modalbox effect display.</li>
+                  <li>Style Switcher option on frontend.</li>
+                  <li>Easy footer content configuration on template parameters.</li>
+                  <li>Build support for WYSIWYG Friendly Typography editor plugin.</li>
+                  <li>Compressed engine option for each modules.</li>
+                  <li>Support for language translation.</li>
+                  <li>2 layout options: 2 columns (component + column)  and 1 column (component).</li>
+                  <li>All 26 modules are fully collapsible  and more 20 modules positions ready for tabs.</li>
+                  <li>Impressive built-in content style.</li>
+                  <li>Gavick Suckerfish menu version, with 2 built-in options - Suckerfish menu and Mootools. 34 different styles moomenu animation effects..</li>
+                  <li>Speed menu animation option</li>
+                  <li>Optional IE6 Warning / Upgrade Notification</li>
+                  <li>Lightweight, modern and very fast-loading design</li>
+                  <li>Joomla 1.5 Native</li>
+                  <li>W3C XHTML 1.0 Transitional. W3C CSS Valid</li>
+                  <li>Fully compatible IE7+, Firefox 2+, Firefox 3, Flock 0.7+, Netscape, Safari, Opera 9.5, Chrome.</li>
+                  <li>Delivered with source Adobe .PSD files.</li>
+                  <li>Delivered with "QuickStart Package".</li>
+                  </ul>
+
+                  View Pulse in <a href="http://demo.gavick.com/index.php?year=2009&month=Oct" target="_blank">live demo</a>
+                  </div></div>]]>
+      </description>
+
+      <languages>
+            <language tag="en-GB">en-GB.tpl_gk_pulse.ini</language>
+      </languages>
+
+	  <files>
+            <filename>component.php</filename>
+            <filename>favicon.ico</filename>
+            <filename>index.html</filename>
+            <filename>index.php</filename>
+            <filename>template_thumbnail.png</filename>
+            <filename>params.ini</filename>
+            <folder>html/</folder>
+            <folder>css/</folder>
+            <folder>lib/</folder>
+            <folder>images/</folder>
+      </files>
+
+	  <positions>
+            <position>login</position>
+            <position>highlight</position>
+            <position>header1</position>
+            <position>header2</position>
+            <position>breadcrumb</position>
+            <position>top</position>
+            <position>right</position>
+            <position>bottom</position>
+            <position>footer_menu</position>
+            <position>mainbody</position>
+            <position>search</position>
+			<position>user1</position>
+            <position>user2</position>
+            <position>user3</position>
+            <position>user4</position>
+            <position>user5</position>
+            <position>user6</position>
+            <position>user7</position>
+            <position>user8</position>
+            <position>user9</position>
+            <position>user10</position>
+            <position>user11</position>
+            <position>user12</position>
+            <position>user13</position>
+            <position>user14</position>
+            <position>user15</position>
+            <position>user16</position>
+            <position>user17</position>
+			<position>tab1</position>
+            <position>tab2</position>
+            <position>tab3</position>
+            <position>tab4</position>
+            <position>tab5</position>
+            <position>tab6</position>
+            <position>tab7</position>
+            <position>tab8</position>
+            <position>tab9</position>
+            <position>tab10</position>
+            <position>tab11</position>
+            <position>tab12</position>
+            <position>tab13</position>
+            <position>tab14</position>
+            <position>tab15</position>
+            <position>tab16</position>
+            <position>tab17</position>
+            <position>tab18</position>
+            <position>tab19</position>
+            <position>tab20</position>
+      </positions>
+
+      <params>
+            <param type="spacer" default="Basic template parameters" />
+
+				<param name="template_color" type="list" default="1" label="Template color" description="Select default template color">
+	            	<option value="1">Blue</option>
+	            	<option value="2">Green</option>
+	            	<option value="3">Pink</option>
+	            	<option value="4">Red</option>
+	            	<option value="5">Yellow</option>
+	            	<option value="6">Orange</option>
+	            </param>
+
+	            <param name="theme_color" type="list" default="dark" label="Theme" description="Select default template theme">
+	            	<option value="dark">Dark</option>
+	            	<option value="white">White</option>
+	            </param>
+
+				<param name="column_position" type="list" default="right" label="Column position" description="Select position of column - left or right">
+	            	<option value="right">Right</option>
+	            	<option value="left">Left</option>
+	            </param>
+
+				<param name="column_width" type="text" default="320" label="Column position width" description="Set width of column module position - it must be value in px i.e. 320 ." />
+
+	            <param name="frontpage" type="list" default="1" label="Show mainbody on frontpage" description="Show mainbody on frontpage">
+	            	<option value="1">Enabled</option>
+	            	<option value="0">Disabled</option>
+	            </param>
+
+			<param type="spacer" default="Interface parameters" />
+
+				<param name="ie6info" type="list" default="1" label="IE6 alert" description="Show information when user use IE6">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="login_button" type="list" default="1" label="Login button" description="Enable this option if you want to show login button and login area">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="register_button" type="list" default="1" label="Register button" description="Enable this option if you want to show register button">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="logo_as_image" type="list" default="0" label="Logo as image" description="If you want to have normal image instead of link with background - enable this option. IMPORTANT: when you enable this option, style change won't change your logo till page refresh">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="stylearea" type="list" default="1" label="Style switcher" description="Enable this option if you want to enable style switcher">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+			<param type="spacer" default="Footer parameters" />
+
+				<param name="footer_content" type="textarea" default="" label="Footer content" description="Here you can set text visible on right side of footer" rows="20" cols="30" />
+
+			<param type="spacer" default="Menu parameters" />
+
+				<param name="menutype" type="list" default="moomenu" label="Menu type" description="Main menu type">
+            		<option value="moomenu">MooMenu</option>
+            		<option value="suckerfish">Suckerfish menu</option>
+            		<option value="standard">Standard menu</option>
+            	</param>
+
+				<param name="menuname" type="text" default="mainmenu" label="Menu name" description="Name of menu to load" />
+
+				<param name="menu_speed" type="text" default="500" label="Menu speed" description="Speed of menu animation" />
+
+				<param name="menu_animation" type="list" default="1" label="Menu animation" description="Select type of menu animation transition">
+		            <option value="1">linear</option>
+		            <option value="2">Quad.easeIn</option>
+		            <option value="3">Quad.easeOut</option>
+		            <option value="4">Quad.easeInOut</option>
+		            <option value="5">Cubic.easeIn</option>
+		            <option value="6">Cubic.easeOut</option>
+		            <option value="7">Cubic.easeInOut</option>
+		            <option value="8">Quart.easeIn</option>
+		            <option value="9">Quart.easeOut</option>
+		            <option value="10">Quart.easeInOut</option>
+		            <option value="11">Quint.easeIn</option>
+		            <option value="12">Quint.easeOut</option>
+		            <option value="13">Quint.easeInOut</option>
+		            <option value="14">Pow.easeIn</option>
+		            <option value="15">Pow.easeOut</option>
+		            <option value="16">Pow.easeInOut</option>
+		            <option value="17">Expo.easeIn</option>
+		            <option value="18">Expo.easeOut</option>
+		            <option value="19">Expo.easeInOut</option>
+		            <option value="20">Circ.easeIn</option>
+		            <option value="21">Circ.easeOut</option>
+		            <option value="22">Circ.easeInOut</option>
+		            <option value="23">Sine.easeIn</option>
+		            <option value="24">Sine.easeOut</option>
+		            <option value="25">Sine.easeInOut</option>
+		            <option value="26">Back.easeIn</option>
+		            <option value="27">Back.easeOut</option>
+		            <option value="28">Back.easeInOut</option>
+		            <option value="29">Bounce.easeIn</option>
+		            <option value="30">Bounce.easeOut</option>
+		            <option value="31">Bounce.easeInOut</option>
+		            <option value="32">Elastic.easeIn</option>
+		            <option value="33">Elastic.easeOut</option>
+		            <option value="34">Elastic.easeInOut</option>
+           	 	</param>
+
+				<param name="menu_width" type="list" default="1" label="Menu width animation" description="Use width animation in menu">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="menu_height" type="list" default="1" label="Menu height animation" description="Use height animation in menu">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+
+				<param name="menu_opacity" type="list" default="1" label="Menu opacity animation" description="Use opacity animation in menu">
+            		<option value="1">Enabled</option>
+            		<option value="0">Disabled</option>
+            	</param>
+      </params>
+</extension>

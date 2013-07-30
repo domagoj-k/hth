@@ -1,0 +1,265 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+#header {
+	overflow:hidden;
+}
+/* grids padding */
+.yjsg_grid {
+	padding:10px 0;
+}
+#yjsgbodytop {
+	padding:0;
+}
+#yjsgbodybottom {
+	padding:5px 0;
+}
+/* search */
+#yjsgheadergrid div.searchyjsearch {
+	margin-top:30px;
+}
+#yjsgheadergrid div.searchyjsearch input.forceright225 {
+	padding-left:5px;
+	padding-right:5px;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+/* article and module titles font size*/
+h2.article_title,
+.module_title {
+	font-size:170%;
+}
+.module_title {
+	text-transform: capitalize;
+}
+/* small drop distance from top menu */
+.top_menu ul.subul_main {
+	margin-top:10px;
+}
+/* yjsgintro */
+.yjsgintro {
+	display:block;
+	overflow:hidden;
+	text-align:center;
+}
+.yjsgintro h1 {
+	font-size:60px;
+}
+h2.yjpresents {
+	font-size:45px;
+	display:block;
+	clear:both;
+	font-weight:bold;
+}
+a.visityjsg {
+	display:block;
+	margin:0 auto;
+}
+/* intro blocks modules style */
+.introblock {
+	text-align:center;
+	padding-top:35px;
+	padding-bottom:35px;
+}
+.introblock .homelarge {
+	font-size:80px!important;
+}
+/* yjsg features blocks */
+.yjsg_features {
+	display:block;
+	overflow:hidden;
+	padding:20px;
+}
+.yjsg_features .yjsg-split {
+	width:50%;
+	margin:20px 0;
+}
+/* news items custom */
+.newsitem_text div:first-child .yjsg-split-in {
+	padding-right:20px;
+}
+.newsitem_text .yjsg-split:last-child .yjsg-split-in {
+	padding-left:20px;
+}
+#yjsgtmanager .pull-left {
+	margin-right:10px;
+	margin-bottom:30px;
+}
+/*linkgroup*/
+.linkgroup {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 20%;
+}
+.linkgroup ul.disc {
+	padding:20px;
+}
+.linkgroup ul.disc li {
+	font-size:110%;
+	padding-bottom:10px;
+}
+/*--- CUSTOM FOR BLUE ---*/
+body.style_blue #pathway {
+	margin-bottom:20px;
+}
+/* reset sub menu ul padding */
+body.style_blue div.top_menu ul.subul_main,
+body.style_blue div.top_menu ul.subul_main.dropline {
+	padding-top:0!important;
+	padding-bottom:0!important;
+}
+/*TOP MENU RESET */
+/* flyouts */
+body.style_blue div.top_menu ul.subul_main,
+body.style_blue div.top_menu ul.subul_main.dropline,
+body.style_blue div.top_menu ul.subul_main {
+	margin-top:5px;
+	padding-top:0!important;
+	padding-bottom:0!important;
+}
+/* mega holder */
+body.style_blue div.YJSG-inner.horiznav {
+	padding-top:7px!important;
+	padding-bottom:7px!important;
+}
+/* mega haschild flyouts */
+body.style_blue .top_menu ul.subul_main.level2,
+body.style_blue .top_menu ul.subul_main.level3,
+body.style_blue .top_menu ul.subul_main.level4 {
+	margin-top:20px;
+}
+/* reset module padding for blue style only */
+body.style_blue .yjsquare.yjsearch {
+	padding:0;
+}
+/* full width for blue style only */
+.blue_yjsg3_out,
+.blue_yjsg4_out {
+	display:block;
+	overflow:hidden;
+}
+/* footer_holders */
+.footer_holders {
+	display:block;
+	overflow:hidden;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+/*--- CUSTOM FOR MESH AND METAL --- */
+
+/* grid modules padding for mesh and metal */
+body.style_mesh #holder,
+body.style_metal #holder,
+body.style_mesh #holder2,
+body.style_metal #holder2,
+body.style_mesh #holder3,
+body.style_metal #holder3 {
+	padding-left:10px;
+	padding-right:10px;
+}
+body.style_mesh .yjsg_grid .yjsquare,
+body.style_metal .yjsg_grid .yjsquare {
+	padding-left:15px;
+	padding-right:15px;
+}
+body.style_mesh #yjsgbodytop .yjsquare,
+body.style_mesh #yjsgbodybottom .yjsquare,
+body.style_metal #yjsgbodytop .yjsquare,
+body.style_metal #yjsgbodybottom .yjsquare {
+	padding-left:6px;
+	padding-right:6px;
+}
+/* top menu margin depending on style name*/
+body.style_mesh #topmenu_holder,
+body.style_metal #topmenu_holder {
+	margin:10px auto;
+}
+/* Nice CSS3 3D */
+#visityjsg {
+	position: relative;
+	margin: 0 auto;
+	width:400px;
+	height:207px;
+	z-index: 1;
+}
+#visityjsg {
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+}
+#visityjsg_card {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 0.5s linear;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: all 0.5s linear;
+	-o-transform-style: preserve-3d;
+	-o-transition: all 0.5s linear;
+	transform-style: preserve-3d;
+	transition: all 0.5s linear;
+}
+#visityjsg:hover #visityjsg_card,
+#visityjsg.hover_effect #visityjsg_card {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+#visityjsg .face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	z-index:1000;
+}
+#visityjsg .face.back {
+	display: block;
+	-webkit-transform: rotateY(180deg);
+	-webkit-box-sizing: border-box;
+	-moz-transform: rotateY(180deg);
+	-moz-box-sizing: border-box;
+	-o-transform: rotateY(180deg);
+	-o-box-sizing: border-box;
+	transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	position:relative;
+	z-index:100;
+	line-height:100px;
+}
+#visityjsg h3 {
+	font-size:60px;
+	line-height:80px;
+}
+/* CUSTOM RTL BODY EXAMPLE */
+/* search */
+body.yjsgrtl .forceright225 {
+	float:left!important;
+}
+body.yjsgrtl .yjsquare.introblock .yjsquare_in,
+body.yjsgrtl .yjsquare.introblock .yjsquare_in p,
+body.yjsgrtl .yjsquare.introblock .yjsquare_in h1,
+body.yjsgrtl .yjsquare.introblock .yjsquare_in h2,
+body.yjsgrtl .yjsquare.introblock .yjsquare_in h3 {
+	text-align:center!important;
+}

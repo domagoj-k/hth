@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* Box-model
+------------------------------------------------------------*/
+div#horiz-menu *{
+	margin:0;
+	padding:0;
+}
+div#horiz-menu ul{
+	margin:0;
+	padding:0;
+}
+div#horiz-menu li.level1{
+	padding:0 4px 0 0;
+	margin:0;
+	height:43px;
+	line-height:43px;	
+}	
+div#horiz-menu li li{
+	margin:0 6px 0 0;
+	padding:0;
+	border:0;
+	height:30px;
+	line-height:30px;
+}
+div#horiz-menu a,
+div#horiz-menu span.separator{
+	padding:0 0 0 3px;
+}
+div#horiz-menu a span,
+div#horiz-menu span.separator span{
+	padding:0 2px 0 7px;
+}
+div#horiz-menu li li{
+	margin:0;
+	height:30px;
+}
+div#horiz-menu ul{
+	padding:0;
+}
+div#horiz-menu li li a,
+div#horiz-menu li li span.separator{
+	width:172px;
+	padding:0;
+	margin:0 12px;
+}
+div#horiz-menu li li a span{
+	padding:0;
+}
+div#horiz-menu li li,
+div#horiz-menu li li:hover ul,
+div#horiz-menu li li li:hover ul,
+div#horiz-menu li li li li:hover ul{
+	width:196px;
+}
+div#horiz-menu li ul{
+	width:196px;
+}
+div#horiz-menu ul ul{
+	padding-bottom:3px;
+}
+
+/* Fonts
+------------------------------------------------------------*/
+div#horiz-menu{
+	font-size:14px;
+	font-family:Arial, Verdana, sans-serif;
+	line-height:18px;
+}
+div#horiz-menu a{
+	text-decoration:none;
+}
+div#horiz-menu a:hover{
+	text-decoration: none!important;
+}
+div#horiz-menu li li a,
+div#horiz-menu li li span.separator{
+	text-decoration:none;
+	line-height:30px;
+}
+
+/* Other rules
+------------------------------------------------------------*/
+
+div#horiz-menu{
+	position:relative;
+}
+div#horiz-menu ul{
+	list-style:none;
+}
+div#horiz-menu li{
+	display:block;
+	float:left;
+	list-style:none;
+	position:relative;
+}
+div#horiz-menu li ul{
+	float: none;
+	left:-999em;
+	position:absolute;
+	z-index: 1000;
+}
+div#horiz-menu li:hover ul{
+	left:0px;
+	top:43px;
+}
+div#horiz-menu li:hover li ul,
+div#horiz-menu li li:hover li ul,
+div#horiz-menu li li li:hover li ul{
+	top:-999em;
+}
+div#horiz-menu li li:hover ul,
+div#horiz-menu li li li:hover ul,
+div#horiz-menu li li li li:hover ul{
+	left: 196px;
+	top:0px;
+}
+div#horiz-menu li li{
+	position: relative;
+	float:none;
+}

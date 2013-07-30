@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension version="1.7" type="template" client="site" method="upgrade">
+  <name>jp_genesis_j2.5</name>
+  <version>2.5</version>
+  <creationDate>03/04/12</creationDate>
+  <author>JoomlaPraise</author>
+  <authorEmail>support@joomlapraise.com</authorEmail>
+  <authorUrl>http://www.joomlapraise.com</authorUrl>
+  <copyright>Copyright 2012 JoomlaPraise, All rights reserved.</copyright>
+  <description>Genesis 2.5 Template</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+    <folder>css</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>language</folder>
+  </files>
+  <positions>
+    <position>nav-1</position>
+    <position>nav-2</position>
+    <position>nav-3</position>
+    <position>banner</position>
+    <position>inset-1</position>
+    <position>inset-2</position>
+    <position>sidebar-1</position>
+    <position>sidebar-2</position>
+    <position>elements-1</position>
+    <position>elements-2</position>
+    <position>before</position>
+    <position>after</position>
+    <position>bottom</position>
+    <position>footer</position>
+    <position>debug</position>
+  </positions>
+  <languages folder="language">
+    <language tag="en-GB">en-GB.tpl_jp_genesis_j25.ini</language>
+  </languages>
+  <config>
+  	<fields name="params">
+  		<fieldset name="advanced">
+		<field name="templateTheme" type="list" default="theme1" label="Template Theme" description="Choose your template theme">
+	      <option value="theme1">theme1</option>
+  		  <option value="theme2">theme2</option>
+  		  <option value="theme3">theme3</option>
+  		  <option value="theme4">theme4</option>
+  		  <option value="theme5">theme5</option>
+  		  <option value="theme6">theme6</option>
+  		  <option value="theme7">theme7</option>
+  		  <option value="theme8">theme8</option>
+	    </field>
+		<field name="customWidth" type="text" default="" label="Custom Width" description="Type a custom width for the template(example: 90% | 760px)" />
+	    <field name="fontFamily" type="list" default="pt_sans" label="Body Font Family" description="Choose your font family">
+	      <option value="pt_sans">"PT Sans",Arial, Helvetica, sans-serif</option>
+        <option value="arial">Arial, Helvetica, sans-serif</option>
+	      <option value="times">"Times New Roman", Times, serif</option>
+	      <option value="courier">"Courier New", Courier, monospace</option>
+	      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+	    </field>
+	    <field name="headingFontFamily" type="list" default="pt_sans_narrow" label="Heading Font Family" description="Choose your font family">
+	      <option value="pt_sans_narrow">"PT Sans Narrow", Georgia, "Times New Roman", Times, serif</option>
+        <option value="arial">Arial, Helvetica, sans-serif</option>
+	      <option value="times">"Times New Roman", Times, serif</option>
+	      <option value="courier">"Courier New", Courier, monospace</option>
+	      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+	    </field>
+	    <field name="fontColor" type="text" default="" label="Custom Font Color" description="Type A Hexadecimal Color(#123456) for the font color(Do forget to include the pound(#) sign)" />
+	    <field name="headingColor" type="text" default="" label="Custom Heading Color" description="Type A Hexadecimal Color(#123456) for the heading color(Do forget to include the pound(#) sign)" />
+	    <field name="linkColor" type="text" default="" label="Custom Link Color" description="Type A Hexadecimal Color(#123456) for the links color(Do forget to include the pound(#) sign)" />
+	    <field name="linkHoverColor" type="text" default="" label="Custom Link Hover Color" description="Type A Hexadecimal Color(#123456) for the link hover color(Do forget to include the pound(#) sign)" />
+	    </fieldset>
+	</fields>
+</config>
+</extension>

@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document for Genesis © Copyright 2009, All rights reserved */
+/*------ Default HTML Styles ------*/
+body{
+background:#66A326 url(../images/theme3/body.png) repeat-x 0 0;
+color:#555555;
+}
+a{
+color:#66A326;
+}
+h1, .componentheading, h3{
+color:#3477CF;
+}
+h2, .contentheading{
+color:#000000;
+}
+/*------ Layout Styles ------*/
+#wrapper{
+background:#FFFFFF;
+}
+#toolbar{
+color:#CCCCCC;
+}
+#toolbar a{
+color:#FFFFFF;
+}
+#logo{
+background:url(../images/logo.png) no-repeat 0 0;
+}
+#inset{
+border-top:1px dotted #CCCCCC;
+border-bottom:1px dotted #CCCCCC;
+background:#F8F8F8;
+}
+#bottom{
+border-top:1px dotted #CCCCCC;
+border-bottom:1px dotted #CCCCCC;
+background:#F8F8F8;
+}
+#footer{
+color:#FFFFFF;
+}
+#footer a{
+color:#FFFFFF;
+}
+#debug{
+color:#CCCCCC;
+}
+/*------ Content Styles ------*/
+.inputbox, .validate-email{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #CCCCCC;
+}
+.button, .validate, .adminform button, button{
+background:#66A326 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #66A326;
+color:#FFFFFF;
+}
+.readon, .readmore{
+background:#F8F8F8 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.small, .modifydate, .createdate{
+color:#989096;
+}
+.article_separator{
+border-bottom:1px dotted #CCCCCC;
+}
+.blog_more{
+background:#F8F8F8 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+color:#676060;
+}
+.blog_more li a{
+background:url(../images/bullet_green_arrow.png) no-repeat 0 12px;
+}
+.pagination span{
+background:#F8F8F8 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.pagination a{
+background:#EEEEEE url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.contentpane li{
+border-bottom:1px dotted #CCCCCC;
+}
+td.sectiontableheader{
+background:#F8F8F8 url(../images/gradient.png) repeat-x 0 0;
+border-top:1px solid #CCCCCC;
+}
+td.sectiontableheader a{
+color:#5E5253;
+}
+tr.sectiontableentry1 td{
+border-bottom:1px dotted #CCCCCC;
+}
+tr.sectiontableentry2 td{
+border-bottom:1px dotted #CCCCCC;
+}
+tr.sectiontableentry0 td{
+border-bottom:1px dotted #CCCCCC;
+}
+#limit{
+margin:0 0 10px 0;
+}
+.contenttoc{
+border:1px solid #CCCCCC;
+}
+.contenttoc td a{
+border-bottom:1px dotted #CCCCCC;
+background:url(../images/menu_bullet2.png) no-repeat 98% 8px;
+}
+.contenttoc td a:hover{
+color:#5E5253;
+}
+.searchintro b{
+color:#FF0000;
+}
+.highlight{
+color:#FF0000;
+background:#FFFF00;
+}
+.contentpaneopen fieldset{
+margin:10px 0;
+border-bottom:1px dotted #CCCCCC;
+}
+#com-form-login a{
+border-bottom:1px dotted #CCCCCC;
+}
+#com-form-login a:hover{
+color:#5E5253;
+}
+.button2-left .readmore{
+border:none;
+padding:0;
+}
+.adminform{
+border:1px solid #CCCCCC;
+}
+#jformcatid, #jformtitle, #jformurl, #jformdescription{
+width:400px;
+margin:0 0 10px 0;
+}
+.paramlist{
+margin:10px 0;
+}
+.paramlist .inputbox{
+margin:0 0 10px 0;
+}
+/*------ Module Styles ------*/
+.moduletable, .moduletable_menu, .moduletable_text, .moduletable-ms1, .moduletable-ms2, .moduletable-ms3, .moduletable-ms4{
+color:#666666;
+}
+.moduletable h3, .moduletable_menu h3, .moduletable_text h3, .moduletable-ms1 h3, .moduletable-ms2 h3, .moduletable-ms3 h3, .moduletable-ms4 h3{
+border-bottom:1px dotted #CCCCCC;
+}
+.moduletable li a, .moduletable_menu li a, .moduletable_text li a, .moduletable-ms1 li a, .moduletable-ms2 li a, .moduletable-ms3 li a, .moduletable-ms4 li a{
+background:url(../images/bullet_gray_arrow.png) no-repeat 0 9px;
+border-bottom:1px dotted #CCCCCC;
+color:#666666;
+}
+/*- Latest News/Popular Modules -*/
+#elements .moduletable li a, #elements .moduletable_menu li a, #elements .moduletable_text li a, #elements .moduletable-ms1 li a, #elements .moduletable-ms2 li a, #elements .moduletable-ms3 li a, #elements .moduletable-ms4 li a{
+background:url(../images/bullet_green_arrow.png) no-repeat 0 12px;
+border-bottom:none;
+color:#66A326;
+}
+/*- Search Module -*/
+.search .inputbox{
+border:1px solid #CCCCCC;
+background:#FFFFFF url(../images/glass.png) no-repeat 100% 50%;
+}
+/*- Polls Module -*/
+.poll td.sectiontableentry2{
+background:#F8F8F8;
+}
